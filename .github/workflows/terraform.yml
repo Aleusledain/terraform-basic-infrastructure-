@@ -9,6 +9,10 @@ jobs:
   terraform:
     runs-on: ubuntu-latest
 
+env:
+          AWS_ACCESS_KEY_ID: ${{ AKIAYI7I3J54VGPGOCMH }}
+          AWS_SECRET_ACCESS_KEY: ${{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  }}
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -24,6 +28,4 @@ jobs:
 
       - name: Terraform Apply
         run: terraform apply -auto-approve
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        
