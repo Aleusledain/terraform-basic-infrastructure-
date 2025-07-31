@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      AWS_ACCESS_KEY_ID: ${{ AKIAYI7I3J54VGPGOCMH }}
-      AWS_SECRET_ACCESS_KEY: ${{ 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 }}
+      AWS_ACCESS_KEY_ID: ${{ ACCESS_KEY }}
+      AWS_SECRET_ACCESS_KEY: ${{ sECRET_ACCESS_KEY }}
 
     steps:
     - name: Checkout repository
