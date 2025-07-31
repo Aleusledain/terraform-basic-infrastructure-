@@ -11,7 +11,7 @@ jobs:
 
     env:
       AWS_ACCESS_KEY_ID: ${{ ACCESS_KEY }}
-      AWS_SECRET_ACCESS_KEY: ${{ sECRET_ACCESS_KEY }}
+      AWS_SECRET_ACCESS_KEY: ${{ SECRET_ACCESS_KEY }}
 
     steps:
     - name: Checkout repository
