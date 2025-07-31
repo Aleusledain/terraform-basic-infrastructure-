@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "example_bucket" {
-  bucket = "my-unique-first-terraform-bucket-12345"
+  bucket = "a-unique-terraform-bucket4563"
   acl    = "private"
 
   tags = {
